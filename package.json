@@ -1,0 +1,22 @@
+{
+  "name": "biscord",
+  "version": "0.2.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

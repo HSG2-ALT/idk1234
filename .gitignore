@@ -1,0 +1,4 @@
+node_modules/
+.env
+biscord.db*
+uploads/
